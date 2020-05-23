@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JumpCutter</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style>
+		img.center {
+    		display: block;
+    		margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-black border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">JumpCutter</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+  </nav>
+</div>
+<h1 align="center">Effortless editing, through guided automation</h1>
+<h3 align="center">We cut out the tedium so that you don't have to.</h3>
+<br>
+<p>Ever wanted to make an animation or a video without editing? Or your video is too long because of silences? Then JumpCutter<br>is just for you! Make animations without manual editing, cut off useless moments, make stop motins easily and more!</p>
+<a class="btn btn-outline-primary" href="static/JumpCutter.rar">Get JumpCutter</a>
+<br>
+<br>
+<h1>How it works</h1>
+<p>JumpCutter detects frames with silence and automatically removes them. It also<br>detects when you're clapping and takes a frame at thet moment.</p>
+<br>
+<p>If you want to use it by yourself, complete the following steps:</p>
+<div>
+	<li>1. Download and install <a href="https://www.python.org/">Python 3.7</a></li>
+	<li>2. Download JumpCutter.</li>
+	<li>3. Open "install-requirements.bat".</li>
+	<p>You're done!</p>
+</div>
+<br>
+<h1>How to use</h1>
+<div>
+	<li>1. Open CMD by typing "cmd" in the search bar.</li>
+	<li>2. Type "cd (JumpCutter directory)".</li>
+	<li>3. Type "jumpcutter.py --input_file (filename) --output_file (filename).</li>
+	<p>Additional options:</p>
+	<p>If you want to edit a video with a different frame rate (e.g. 24 or 60 fps), then<br>type "--frame_rate (frame rate)" to the end of the line.</p>
+	<p>If you want to make silent fragments to play at a different speed (e.g. 3x or 10x), then<br>type "--silent_speed (silent speed with .00 at the end, e.g. 5.00)" to the end of the line.</p>
+	<p>If you want to edit a video with a different sample rate (e.g. 36000 Hz), then<br>type "--sample_rate (sample rate)" to the end of the line.</p>
+	<p>If you want to set the volume amount that frames' audio needs to surpass to be consider<br>"sounded" (it ranges from 0 (silence) to 1 (max volume)), then type "--silent_threshold (silent threshold)" to the end of the line.</p>
+	<p>If you want to make sounded fragments to play at a different speed (e.g. 2x or 3x), then<br>type "--sounded_speed (sounded speed with .00 at the end, e.g. 2.00)" to the end of the line.</p>
+	<p>If you want to edit a video with a different frame margin (e.g. 2 or 3), then<br>type "--frame_margin (frame margin)" to the end of the line.</p>
+	<p>If you want to set the quality of frames to be extracted from input video (1 is highest, 31 is lowest), then<br>type "--frame_quality (frame quality)" to the end of the line.</p>
+</div>
+</body>
+</html>
